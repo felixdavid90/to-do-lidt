@@ -6,3 +6,5 @@ export default combineReducers({
   todos,
   visibilityFilter
 })
+
+//this reducer is to  combine reducer.

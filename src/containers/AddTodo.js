@@ -9,7 +9,7 @@ const AddTodo = ({ dispatch }) => {
     <div>
       <form onSubmit={e => {
         e.preventDefault()
-        if (!input.value.trim()) {
+        if (!input.value.trim()) { //this is yo remove white space
           return
         }
         dispatch(addTodo(input.value))
